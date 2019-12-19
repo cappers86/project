@@ -6,7 +6,7 @@
   "scripts": {
      
     "devServer": "live-server",
-    "build": "mkdir -p public && cp index.html script.js public"
+    "build": "mkdir -p public && cp index.html script.js public && echo '<div>Built</div> >> public/index.html'"
   },
   "repository": {
     "type": "git",
