@@ -4,8 +4,9 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-      "build": "echo building",
-    "devServer": "live-server"
+     
+    "devServer": "live-server",
+    "build": "mkdir -p public && cp index.html script.js public"
   },
   "repository": {
     "type": "git",
